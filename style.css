@@ -1,0 +1,139 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body{
+    background:#b0b9bd;
+    color:#333;
+    line-height:1.6;
+}
+
+/* HEADER */
+header{
+    background:#0f172a;
+    color:rgb(189, 168, 188);
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:24px;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px 10%;
+    background:white;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#0ea5e9;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+}
+
+.btn:hover{
+    background:#0284c7;
+}
+
+/* SECTIONS */
+section{
+    padding:60px 10%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:28px;
+}
+
+/* SKILLS */
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* PROJECTS */
+.project-card{
+    background:#f8fafc;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+/* CONTACT */
+.profile-section {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+.profile-section h2 {
+    color: #0A66C2; /* Professional Blue */
+    font-size: 1.4rem;
+    margin-top: 20px;
+    border-left: 4px solid #0A66C2;
+    padding-left: 10px;
+}
+
+.works-list p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+strong {
+    color: #1877F2;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#020617;
+    color:#ccc;
+    font-size:14px;
+}
